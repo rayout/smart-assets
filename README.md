@@ -4,7 +4,7 @@ smart-assets
 Smart Asset Management for laravel
 
 This package add automatic coffee, less...etc convert to js and css.
-It work when you specify path to file like /pipeline/*/*.coffee
+It work when you specify path to file like /pipeline/\*/\*.coffee
 
 ##Installation
 
