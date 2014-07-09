@@ -52,9 +52,9 @@ Place these lines into your Laravel view/layout
 or if you want concatenate files (work when environment is production)
 
 ```php
-  <!-- build:css /lib/css/vendor.min.css -->
+	<!-- build:css /lib/css/vendor.min.css -->
 	<link rel="stylesheet" type="text/css" href="/dist/assets/less/main.less" />
-  <link rel="stylesheet" type="text/css" href="/lib/css/bootstrap.css" />
+	<link rel="stylesheet" type="text/css" href="/lib/css/bootstrap.css" />
 	<!-- endbuild -->
 	 
 	<!-- build:js /lib/js/vendor.min.js -->
