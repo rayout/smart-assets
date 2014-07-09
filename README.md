@@ -90,6 +90,8 @@ This prefix uses when you need convert files
     'public'
 ```
 
+These are the directories we search for files in. You can think of this like PATH environment variable on your OS. We search for files in the path order listed below.
+
 ### modules
 
 I you use package [https://github.com/creolab/laravel-modules], this function may be usefull
@@ -99,8 +101,6 @@ I you use package [https://github.com/creolab/laravel-modules], this function ma
 ```
 
 if true, when smart-assets find files in "path" and not find, it goes to the public/packages/module/ or app/modules/ when production
-
-These are the directories we search for files in. You can think of this like PATH environment variable on your OS. We search for files in the path order listed below.
 
 ### mimes
 
